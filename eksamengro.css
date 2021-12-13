@@ -879,13 +879,13 @@ ul a {
 
  .underoverskrift {
      grid-area: b;
-     margin-top: 50px;
+     margin-top: 60px;
      margin-bottom: 0px;
-     margin-left: 50px;
+     margin-left: 65px;
      color:white;
  }
 
- .øvelse1 {
+ .projekt1 {
      grid-area: a;
      margin-left: 20px;
      margin-top: 100px;
@@ -895,11 +895,11 @@ ul a {
      box-shadow: 0 14px 28px #3B3B3B;
  }
 
- .øvelse1:hover {
+ .projekt1:hover {
      opacity: 0.8;
  }
 
- .øvelse2 {
+ .projekt2 {
      grid-area: b;
      border-radius: 5%;
      margin-top: 100px;
@@ -910,11 +910,11 @@ ul a {
      box-shadow: 0 14px 28px #3B3B3B;
  }
 
- .øvelse2:hover {
+ .projet2:hover {
      opacity: 0.8;
  }
  
- .øvelse3 {
+ .projekt3 {
      grid-area: c;
      border-radius: 5%;
      margin-top:100px;
@@ -925,11 +925,11 @@ ul a {
      box-shadow: 0 14px 28px #3B3B3B;
  }
 
- .øvelse3:hover {
+ .projekt3:hover {
      opacity:0.8;
  }
 
- .øvelse4 {
+ .projekt4 {
     grid-area: g;
     border-radius: 5%;
     margin-top: 50px;
@@ -940,11 +940,11 @@ ul a {
     margin-bottom: 0px;
  }
 
- .øvelse4:hover {
+ .projekt4:hover {
      opacity:0.8;
  }
 
- .øvelse5 {
+ .projekt5 {
      grid-area: h;
      border-radius: 5%;
     margin-top: 50px;
@@ -955,11 +955,11 @@ ul a {
     margin-bottom: 0px;
  }
 
- .øvelse5:hover {
+ .projekt5:hover {
      opacity: 1;
  }
 
- .øvelse6 {
+ .projekt6 {
     grid-area: i;
     border-radius: 5%;
    margin-top: 50px;
@@ -971,7 +971,7 @@ ul a {
    margin-bottom: 0px;
  }
 
- .øvelse1tekst {
+ .projekt1tekst {
      grid-area: e;
      margin-left: 10px;
      margin-top: 25px;
@@ -980,7 +980,7 @@ ul a {
      color: white;
  }
 
- .øvelse2tekst {
+ .projekt2tekst {
      grid-area:d;
      margin-left: 0px;
      margin-top: 25px;
@@ -989,7 +989,7 @@ ul a {
      color: white;
  }
 
- .øvelse3tekst {
+ .projekt3tekst {
      grid-area: f;
     margin-left: 0px;
     margin-top: 25px;
@@ -998,7 +998,7 @@ ul a {
     color: white;
  }
 
- .øvelse4tekst {
+ .projekt4tekst {
     grid-area: j;
     margin-left: 10px;
     margin-top: 25px;
@@ -1007,7 +1007,7 @@ ul a {
     color: white;
  }
 
- .øvelse5tekst {
+ .projekt5tekst {
     grid-area:k;
     margin-left: 0px;
     margin-top: 25px;
@@ -1016,7 +1016,7 @@ ul a {
     color: white;
  }
 
- .øvelse6tekst {
+ .projekt6tekst {
     grid-area: l;
     margin-left: 0px;
     margin-top: 25px;
