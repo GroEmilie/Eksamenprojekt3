@@ -43,7 +43,7 @@
    display: none;
    font-size: 20px;
    position: absolute;
-   background-color: rgba(255, 255, 255, 0.7);
+   background-color: rgba(112, 112, 112, 0.8);
    min-width: 100%;
    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
    z-index: 1;
@@ -182,7 +182,7 @@ ul a {
     color:white;
 }
 
-.øvelse1 {
+.projekt1 {
     grid-area: a;
     margin-top:20px;
     margin-left: 50px;
@@ -191,11 +191,11 @@ ul a {
     border-radius: 5%;
 }
 
-.øvelse1:hover {
+.projekt1:hover {
     opacity: 1;
 }
 
-.øvelse1tekst {
+.projekt1tekst {
     grid-area: a;
     margin-top: 20px;
     margin-left: 40px;
@@ -203,7 +203,7 @@ ul a {
     padding: 0 15px 0 15px;
 }
 
-.øvelse2 {
+.projekt2 {
     grid-area: a;
     margin-top: 80px;
     margin-left: 50px;
@@ -212,11 +212,11 @@ ul a {
     border-radius: 5%;
 }
 
-.øvelse2:hover {
+.projekt2:hover {
     opacity:1;
 }
 
-.øvelse2tekst {
+.projekt2tekst {
     grid-area: a;
     margin-top: 20px;
     margin-left: 40px;
@@ -224,7 +224,7 @@ ul a {
     padding: 0 15px 0 15px;
 }
 
-.øvelse3 {
+.projekt3 {
     grid-area: a;
     margin-top: 80px;
     margin-left: 50px;
@@ -233,11 +233,11 @@ ul a {
     border-radius: 5%;
 }
 
-.øvelse3:hover{
+.projekt3:hover{
     opacity: 1;
 }
 
-.øvelse3tekst {
+.projekt3tekst {
     grid-area: a;
     margin-top: 20px;
     margin-left: 40px;
@@ -245,7 +245,7 @@ ul a {
     color: white;
 }
 
-.øvelse4 {
+.projekt4 {
     grid-area: a;
     margin-top: 80px;
     margin-left: 50px;
@@ -254,11 +254,11 @@ ul a {
     border-radius: 5%;
 }
 
-.øvelse4:hover {
+.projekt4:hover {
     opacity: 1;
 }
 
-.øvelse4tekst {
+.projekt4tekst {
     grid-area: a;
     margin-top: 20px;
     margin-left: 40px;
@@ -266,7 +266,7 @@ ul a {
     color: white;
 }
 
-.øvelse5 {
+.projekt5 {
     grid-area: a;
     margin-top: 80px;
     margin-left: 50px;
@@ -275,11 +275,11 @@ ul a {
     border-radius: 5%;
 }
 
-.øvelse5:hover {
+.projekt5:hover {
     opacity: 1;
 }
 
-.øvelse5tekst {
+.projekt5tekst {
     grid-area: a;
     margin-top: 20px;
     margin-left: 40px;
@@ -287,7 +287,7 @@ ul a {
     color: white;
 }
 
-.øvelse6 {
+.projekt6 {
     grid-area: a;
     margin-top: 80px;
     margin-left: 50px;
@@ -297,12 +297,12 @@ ul a {
 
 }
 
-.øvelse6:hover {
+.projekt6:hover {
     opacity: 1;
 
 }
 
-.øvelse6tekst {
+.projekt6tekst {
     grid-area: a;
     margin-top: 20px;
     margin-left: 40px;
@@ -1104,7 +1104,7 @@ ul a {
  }
 
  .andreprojekter2 {
-    grid-area:x;
+    grid-area: x;
     margin-left: 0px;
     margin-top: 25px;
     font-size: 20px;
@@ -1114,14 +1114,13 @@ ul a {
  }
 
  .andreprojekter3 {
-    grid-area: u;
+    grid-area: y;
     margin-left: 0px;
     margin-top: 25px;
     font-size: 20px;
     padding: 0 15px 0 15px;
     color: white;
-
-
+    margin-bottom: 150px;
  }
 
 /*om mig web siden*/
