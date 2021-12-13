@@ -1,0 +1,19 @@
+body {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.sprite {
+    grid-area: a;
+    justify-content center;
+    width:500px;
+    height: 500px;
+    background: url(snowglobe1_Tegnebræt\ 1.png) 0 0 no-repeat;
+    animation: play 1s steps(5) infinite;
+}
+
+@keyframes play {
+    0% {background-position:0px;}
+    100% {background-position: -2500px;}
+}

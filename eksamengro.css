@@ -1,0 +1,1353 @@
+ html {
+     font-family: 'raleway', sans-serif;
+ }
+
+ * {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+ }
+
+ /*navigation mobil side*/
+ ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #707070;
+ }
+ 
+ li {
+   width: auto;
+ }
+ 
+ li a, .dropbtn {
+   display: inherit;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ 
+ li.dropdown {
+   display: inline-block;
+   min-width: 100%;
+ }
+ 
+ .dropdown-content {
+   display: none;
+   font-size: 20px;
+   position: absolute;
+   background-color: rgba(255, 255, 255, 0.7);
+   min-width: 100%;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ 
+ .dropdown-content a {
+   color: white;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   text-align: center;
+ }
+ 
+ .dropdown-content a:hover {
+     background-color:#707070;
+    }
+ 
+ .dropdown:hover .dropdown-content {
+   display: block;
+ }
+ a {
+     color: inherit;
+ }
+
+ul a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ ul a:hover {
+     color: #95B48F;
+ }
+
+
+
+ body {
+     background-color: #707070; 
+     background-repeat: no-repeat;
+     background-size: auto;
+ }
+ /* mobile version */
+
+ .stormenu {
+     display: none;
+ }
+
+ .menu {
+     display: flex;
+     width: 100%;
+     font-size: 30px;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .menu a {
+     display: block;
+     padding: 15px 5px;
+
+ }
+
+
+ .item {
+     width: 100%;
+     text-align: center;
+     /* display:none; */
+     font-size: 20px;
+     padding: 10px;
+     color: white;
+ }
+/*Indhold på alle mobil sider*/
+/*Forside*/
+
+ .indhold {
+     display: none;
+ }
+
+ .mobilbillede {
+     display: grid;
+     grid-template-columns: auto;
+     grid-template-rows: auto;
+     grid-template-areas: 
+     "a"; 
+ }
+    
+ .ppmobil {
+   grid-area: a;
+     font-size: 20px;
+     margin-left: 50px;
+     margin-top: 100px;
+     color: #95B48F;
+ }
+
+ .navnmobil {
+     grid-area: a;
+     margin-top: 130px;
+     margin-left: 70px;
+     font-size: 15px;
+     color: white;
+ }
+
+ .gro {
+     grid-area:a;
+     opacity: 0.6;
+     transition: 0.3s;
+     margin-left: 200px;
+ }
+
+ .gro:hover {
+     opacity: 1;
+ }
+ 
+/*projekter mobil siden*/
+
+.main {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "a";
+}
+
+.overskrift {
+    grid-area: a;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 165px;
+    color: #95B48F;
+}
+
+.underoverskrift {
+    grid-area: a;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 100px;
+    color:white;
+}
+
+.øvelse1 {
+    grid-area: a;
+    margin-top:20px;
+    margin-left: 50px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+
+.øvelse1:hover {
+    opacity: 1;
+}
+
+.øvelse1tekst {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+    padding: 0 15px 0 15px;
+}
+
+.øvelse2 {
+    grid-area: a;
+    margin-top: 80px;
+    margin-left: 50px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+
+.øvelse2:hover {
+    opacity:1;
+}
+
+.øvelse2tekst {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+    padding: 0 15px 0 15px;
+}
+
+.øvelse3 {
+    grid-area: a;
+    margin-top: 80px;
+    margin-left: 50px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+
+.øvelse3:hover{
+    opacity: 1;
+}
+
+.øvelse3tekst {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 0 15px 0 15px;
+    color: white;
+}
+
+.øvelse4 {
+    grid-area: a;
+    margin-top: 80px;
+    margin-left: 50px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+
+.øvelse4:hover {
+    opacity: 1;
+}
+
+.øvelse4tekst {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 0 15px 0 15px;
+    color: white;
+}
+
+.øvelse5 {
+    grid-area: a;
+    margin-top: 80px;
+    margin-left: 50px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+
+.øvelse5:hover {
+    opacity: 1;
+}
+
+.øvelse5tekst {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 0 15px 0 15px;
+    color: white;
+}
+
+.øvelse6 {
+    grid-area: a;
+    margin-top: 80px;
+    margin-left: 50px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+
+}
+
+.øvelse6:hover {
+    opacity: 1;
+
+}
+
+.øvelse6tekst {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 0 15px 0 15px;
+    color: white;
+
+}
+
+.citat {
+    grid-area: a;
+    color:white;
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size:30px;
+}
+
+.citat1 {
+    grid-area: a;
+    color:#95B48F;
+    margin-left: 160px;
+    font-size: 30px;
+}
+
+.citat2 {
+    grid-area: a;
+    color:#95B48F;
+    margin-left: 160px;
+    font-size:30px;
+}
+
+.andreprojekter1foto {
+    grid-area: a;
+    margin-top: 40px;
+    margin-left: 40px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+
+.andreprojekter1foto:hover {
+    opacity: 1;
+}
+
+.andreprojekter1 {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 0 15px 0 15px;
+    color: white;
+   
+   
+
+}
+
+.andreprojekter2foto {
+    grid-area: a;
+    margin-top: 80px;
+    margin-left: 40px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+
+.andreprojekter2foto:hover {
+    opacity: 1;
+}
+
+.andreprojekter2 {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 0 15px 0 15px;
+    color: white;
+    
+}
+
+.andreprojekter3foto {
+    grid-area: a;
+    margin-top: 80px;
+    margin-left: 40px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+
+.andreprojekter3foto:hover {
+    opacity: 1;
+}
+
+.andreprojekter3 {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 0 15px 0 15px;
+    color: white;
+    margin-bottom: 150px;
+    
+
+}
+
+ /*om mig mobil siden*/
+
+ .containermobil {
+     display: grid;
+     grid-template-columns: auto;
+     grid-template-rows: auto;
+     grid-template-areas: 
+     "a";  
+ }
+ 
+ .ommigoverskrift {
+     grid-area: a;
+     margin-top: 20px;
+     font-size: 40px;
+     color: #95B48F;
+     margin-left: 175px;
+ }
+ .ommigtekst {
+     grid-area: a;
+     margin-top:580px;
+     margin-left: 35px;
+     padding: 0 35px 0 15px;
+     font-size: 20px;
+     color: white;
+ }
+
+ .citat3 {
+     grid-area: a;
+     font-size: 30px;
+     color: #95B48F;
+     margin-left:50px;
+     margin-top:1075px;
+ }
+
+ .ommigtekst1 {
+     grid-area: a;
+     margin-top: 1200px;
+     margin-left: 35px;
+     padding: 0 35px 0 15px;
+     font-size: 20px;
+     color: white;
+ }
+
+ .ommigtekst2 {
+     grid-area: a;
+     margin-top: 2000px;
+     margin-left: 35px;
+     padding: 0 35px 0 15px;
+     font-size: 20px;
+     color: white;
+ }
+
+ .ommigtekst3 {
+     grid-area: a;
+     margin-top:2400px;
+     margin-left: 35px;
+     padding: 0 35px 0 15px;
+     font-size: 20px;
+     color: white;
+ }
+
+ .fotogro {
+     grid-area: a;
+     margin-top: 100px;
+     margin-left:80px;
+     border-radius: 5%;
+     opacity: 0.8;
+ }
+
+ .fotogro1 {
+     grid-area: a;
+     margin-top: 1530px;
+     margin-left:80px;
+     border-radius: 5%;
+     opacity: 0.8;
+      
+ }
+
+ .fotogro2 {
+     grid-area: a;
+     margin-top:2640px;
+     margin-left:35px;
+     margin-left:80px;
+     border-radius: 5%;
+     opacity: 0.8;
+     margin-bottom:120px;
+ }
+ .instagramlogo {
+     grid-area: a;
+     margin-top:2270px;
+     margin-left:200px;
+ }
+ 
+ /*kontakt mobil siden*/
+
+ .kontaktmain {
+     display:none;
+ }
+
+.kontaktmainmobil {
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f";
+}
+
+.headlinemobil {
+    grid-area: a;
+    margin-top: 20px;
+    color: #95B48F;
+    margin-left:155px;
+    font-size: 40px;
+}
+
+.underheadlinemobil {
+    grid-area: a;
+    margin-top:70px;
+    color:white;
+    font-size:25px;
+    margin-left: 55px;
+}
+
+.picmobil {
+    grid-area: f;
+    margin-left: 75px;
+    margin-bottom: 150px;
+    border-radius: 5%;
+    box-shadow: 0 14px 28px #3B3B3B;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.picmobil2 {
+    grid-area: d;
+    margin-left: 75px;
+    border-radius: 5%;
+    box-shadow: 0 14px 28px #3B3B3B;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.picmobil:hover {
+    opacity: 1;
+}
+
+.picmobil2:hover {
+    opacity: 1;
+}
+
+.kontakttekstmobil {
+    grid-area: e;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    text-align:center;
+    color:white;
+    border-style:double;
+}
+
+.kontaktdetaljer {
+    grid-area: b;
+    margin-top: 20px;
+    color: #95B48F;
+    margin-left:55px;
+    font-size: 40px;
+
+}
+
+.ebrevmobil {
+    grid-area: c;
+    margin-top: 20px;
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.mobilmobil {
+    grid-area: c;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+    margin-left: 280px;
+    font-size: 20px;
+
+}
+
+ .footer{
+     display:none;
+ }
+
+ .footermobil {
+     display: grid;
+     grid-template-columns: repeat(3), fr 1;
+     grid-template-rows: auto auto;
+     grid-template-areas: 
+     "a b c"
+     "e f g";
+ }
+
+
+ .emailmobil {
+     grid-area: a;
+     font-size: 20px;
+     margin-top: 10px;
+     margin-left: 20px;
+     color: #707070;
+ }
+
+ .phonemobil {
+     grid-area: c;
+     font-size: 20px;
+     margin-top: 10px;
+     margin-left: 20px;
+     color: #707070;
+
+ }
+
+ .copyrightmobil {
+     grid-area: f;
+     width: 100%;
+     font-size: 10px;
+     color: #707070;
+ }
+
+ footer {
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+
+
+
+@media screen and (min-width: 700px) {
+ /* .dropdown {
+     display: flex;
+     margin-top: 20px;
+     color: white;
+     text-shadow: #3B3B3B;
+     font-size: 30px;
+     flex-direction: row;
+     flex: 1 1 1 1 1 auto;
+     min-width: 95%;
+     align-items: flex-start;  
+ } */
+
+ .menu {
+     display: none;
+ }
+
+ .mobilbillede {
+     display: none;
+ }
+
+ .stormenu {
+     display: flex;
+     margin-top: 20px;
+     color: white;
+     text-shadow: #3B3B3B;
+     font-size: 30px;
+     flex-direction: row;
+     flex: 1 1 1 1 auto;
+     min-width: 95%;
+     align-items: flex-start;
+ }
+ 
+ .sprite {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    width:100px;
+    height:100px;
+    background: url(logo2ani_Tegnebræt\ 1.png) 0 0 no-repeat;
+    animation: play 3s steps(7) infinite;
+ }
+
+ @keyframes play {
+    0% {background-position:0px;}
+    100% {background-position:-700px;}
+}
+
+ .navigation a {
+     padding: 5px;
+     margin: 0 30px;
+ }
+
+ nav ul {
+     padding: 0px;
+     margin: 0px;
+     display: flex;
+     justify-content: flex-start;
+     
+ }
+
+
+ ul {
+     list-style-type: none;
+ }
+
+
+ .indhold { 
+    /* background-image: url(gyngen.png); width: 1280px; height: 800px; */
+    height:100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "a b c d e f"
+    "g h i j k l"
+    "m n o p q r";
+ }
+
+ .sprite {
+    grid-area: f;
+    margin-left: 425px;
+    margin-bottom: 50px;
+   width:100px;
+   height:100px;
+   background: url(logo2ani_Tegnebræt\ 1.png) 0 0 no-repeat;
+   animation: play 3s steps(7) infinite;
+}
+
+@keyframes play {
+   0% {background-position:0px;}
+   100% {background-position:-700px;}
+}
+
+ .gro {
+     opacity: 0.2;
+     transition: 0.3s;
+     grid-area: l;
+ }
+
+ .gro:hover {
+     opacity: 0.7;
+ }
+
+ .dot {
+     grid-area: f;
+     height: 30px;
+     width: 30px;
+     margin-top: 120px;
+     margin-left: 150px;
+     background-color: #bbb;
+     border-radius: 50%;
+ }
+
+ .dotto {
+    grid-area: l;
+    margin-left: 220px;
+    margin-top: 20px;
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+ }
+
+
+ .kode {
+     grid-area: f;
+     border-radius: 0%;
+     opacity:0.6;
+     transition: 0.3s;   
+ }
+
+ .kode:hover {
+     opacity:1;
+ }
+
+ .forsidefoto {
+     grid-area: h;
+     opacity: 0.2;
+     transition: 0.3s;
+     margin-right: 40px;
+ }
+
+ .forsidefoto:hover {
+     opacity: 1;
+ }
+
+ .svaner {
+     grid-area: g;
+     margin-left:20px;
+     opacity: 0.2;
+     transition: 0.3s;
+     border-radius: 5%;
+ }
+
+ .svaner:hover {
+     opacity: 1;
+ }
+ .pp {
+     grid-area: a;
+     margin-left: 120px;
+     margin-bottom: 80px;
+     display: flex;
+     flex-direction: row;
+     color: white;
+     align-items: center;
+     
+ }
+ 
+ .navn {
+     grid-area: a;
+     color: white;
+     margin-left:155px;
+     margin-top: 50px;
+ }
+
+ .button {
+     grid-area: a;
+     margin-top: 100px;
+     margin-left: 230px;
+     width: 120px;
+     height: 30px;
+     background-color: #95B48F;
+     font-size: 16px;
+     text-align: center;
+     color: white;
+     opacity: 0.6;
+     transition:0.3;
+     border: none;
+     border-radius: 5px;
+     box-shadow: 0 5px 5px #3B3B3B;
+ }
+ 
+ .button:hover {
+     opacity:1;
+ }
+
+ a {
+     color: inherit;
+ }
+
+ .button a {
+     text-decoration: none;
+     list-style-type: none;
+ }
+
+ /*projekter web siden */
+ main {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-template-areas: 
+    "a b c"
+    "e d f"
+    "g h i"
+    "j k l"
+    "m n o"
+    "p q r"
+    "s t u"
+    "v x y";  
+ }
+
+ .overskrift {
+     grid-area: b;
+     margin-top: 20px;
+     margin-left: 125px;
+     color: #95B48F;
+ }
+
+ .underoverskrift {
+     grid-area: b;
+     margin-top: 50px;
+     margin-bottom: 0px;
+     margin-left: 50px;
+     color:white;
+ }
+
+ .øvelse1 {
+     grid-area: a;
+     margin-left: 20px;
+     margin-top: 100px;
+     border-radius: 5%;
+     opacity: 0.4;
+     transition: 0.3;
+     box-shadow: 0 14px 28px #3B3B3B;
+ }
+
+ .øvelse1:hover {
+     opacity: 0.8;
+ }
+
+ .øvelse2 {
+     grid-area: b;
+     border-radius: 5%;
+     margin-top: 100px;
+     margin-left: 20px;
+     margin-right:25px;
+     opacity: 0.4;
+     transition: 0.3;
+     box-shadow: 0 14px 28px #3B3B3B;
+ }
+
+ .øvelse2:hover {
+     opacity: 0.8;
+ }
+ 
+ .øvelse3 {
+     grid-area: c;
+     border-radius: 5%;
+     margin-top:100px;
+     margin-left:0px;
+     margin-right:20px;
+     opacity: 0.4;
+     transition: 0.3;
+     box-shadow: 0 14px 28px #3B3B3B;
+ }
+
+ .øvelse3:hover {
+     opacity:0.8;
+ }
+
+ .øvelse4 {
+    grid-area: g;
+    border-radius: 5%;
+    margin-top: 50px;
+    margin-left: 20px;
+    opacity: 0.4;
+    transition: 0.3;
+    box-shadow: 0 14px 28px #3B3B3B;
+    margin-bottom: 0px;
+ }
+
+ .øvelse4:hover {
+     opacity:0.8;
+ }
+
+ .øvelse5 {
+     grid-area: h;
+     border-radius: 5%;
+    margin-top: 50px;
+    margin-left: 20px;
+    opacity: 0.4;
+    transition: 0.3;
+    box-shadow: 0 14px 28px #3B3B3B;
+    margin-bottom: 0px;
+ }
+
+ .øvelse5:hover {
+     opacity: 1;
+ }
+
+ .øvelse6 {
+    grid-area: i;
+    border-radius: 5%;
+   margin-top: 50px;
+   margin-left: 0px;
+   margin-right: 20px;
+   opacity: 0.4;
+   transition: 0.3;
+   box-shadow: 0 14px 28px #3B3B3B;
+   margin-bottom: 0px;
+ }
+
+ .øvelse1tekst {
+     grid-area: e;
+     margin-left: 10px;
+     margin-top: 25px;
+     font-size: 20px;
+     padding: 0 15px 0 15px;
+     color: white;
+ }
+
+ .øvelse2tekst {
+     grid-area:d;
+     margin-left: 0px;
+     margin-top: 25px;
+     font-size: 20px;
+     padding: 0 15px 0 15px;
+     color: white;
+ }
+
+ .øvelse3tekst {
+     grid-area: f;
+    margin-left: 0px;
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 0 15px 0 15px;
+    color: white;
+ }
+
+ .øvelse4tekst {
+    grid-area: j;
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 0 15px 0 15px;
+    color: white;
+ }
+
+ .øvelse5tekst {
+    grid-area:k;
+    margin-left: 0px;
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 0 15px 0 15px;
+    color: white;
+ }
+
+ .øvelse6tekst {
+    grid-area: l;
+    margin-left: 0px;
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 0 15px 0 15px;
+    color: white;
+
+ }
+ .citat {
+     grid-area: n;
+     color:white;
+     font-size: 40px;
+     margin-left: 80px;
+     margin-top: 60px;
+ }
+
+ .citat1 {
+     grid-area: n;
+     margin-left:130px;
+     margin-top: 105px;
+     color: #95B48F;
+     font-size: 40px;
+     text-decoration: line-through;
+
+ }
+
+ .citat2 {
+     grid-area: n;
+     margin-left: 130px;
+     margin-top: 145px;
+     color:#95B48F;
+     font-size: 40px;
+ }
+
+ .andreprojekter1foto {
+     grid-area: s;
+     border-radius: 5%;
+     margin-top: 50px;
+     margin-left: 20px;
+     opacity: 0.4;
+     transition: 0.3;
+     box-shadow: 0 14px 28px #3B3B3B;
+ }
+
+ .andreprojekter1foto:hover {
+     opacity: 1;
+ }
+
+ .andreprojekter2foto {
+     grid-area: t;
+     border-radius: 5%;
+     margin-top: 50px;
+     margin-left: 20px;
+     opacity: 0.4;
+     transition: 0.3;
+     box-shadow: 0 14px 28px #3B3B3B;
+ }
+
+ .andreprojekter2foto:hover {
+     opacity: 1;
+ }
+
+ .andreprojekter3foto {
+     grid-area: u;
+     border-radius: 5%;
+     margin-top: 50px;
+     margin-left:0px;
+     opacity: 0.4;
+     transition: 0.3;
+     box-shadow: 0 14px 28px #3B3B3B;
+ }
+
+ .andreprojekter3foto:hover {
+     opacity: 1;
+ }
+
+ .andreprojekter1 {
+    grid-area: v;
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: 20px;
+    padding: 0 15px 0 15px;
+    color: white;
+    margin-bottom: 150px;
+ }
+
+ .andreprojekter2 {
+    grid-area:x;
+    margin-left: 0px;
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 0 15px 0 15px;
+    color: white;
+    margin-bottom: 150px;
+ }
+
+ .andreprojekter3 {
+    grid-area: u;
+    margin-left: 0px;
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 0 15px 0 15px;
+    color: white;
+
+
+ }
+
+/*om mig web siden*/
+ .containermobil {
+     display: grid;
+     grid-template-columns: auto auto;
+     grid-template-rows: auto;
+     grid-template-areas: 
+     "a b";  
+ }
+
+ .ommigoverskrift {
+     grid-area: a;
+     margin-top: 30px;
+     margin-left: 270px;
+     font-size: 40px;
+     color: #95B48F;
+
+ }
+ .ommigtekst {
+     grid-area: a;
+     margin-top: 100px;
+     margin-left: 35px;
+     padding: 0 35px 0 15px;
+     font-size: 20px;
+     color: white;
+ }
+
+ .citat3 {
+     grid-area: a;
+     margin-top: 400px;
+     margin-left: 100px;
+     font-size: 30px;
+     color:#95B48F;
+ }
+
+ .ommigtekst1 {
+     grid-area: a;
+     margin-top: 600px;
+     margin-left: 35px;
+     padding: 0 35px 0 15px;
+     font-size: 20px;
+     color: white;
+ }
+
+ .ommigtekst2 {
+     grid-area: a;
+     margin-top: 800px;
+     margin-left: 35px;
+     padding: 0 35px 0 15px;
+     font-size: 20px;
+     color: white;
+ }
+
+ .instagramlogo {
+    grid-area: a;
+    margin-left: 320px;
+    margin-top: 950px;
+}
+
+ .ommigtekst3 {
+     grid-area: a;
+     margin-left: 35px;
+     margin-top: 1100px;
+     padding: 0 35px 0 15px;
+     font-size: 20px;
+     color: white;
+ }
+
+ .fotogro {
+     grid-area: b;
+     margin-top: 100px;
+     margin-right: 40px;
+     border-radius: 5%;
+     box-shadow: 0 14px 28px #3B3B3B;
+     opacity: 0.6;
+     transition: 0.3s;
+ }
+
+ .fotogro:hover {
+     opacity: 1;
+ }
+
+ .fotogro1 {
+     grid-area: b;
+     margin-bottom: 0px;
+     margin-top: 600px;
+     border-radius: 5%;
+     box-shadow: 0 14px 28px #3B3B3B;
+     opacity: 0.6;
+     transition: 0.3s;
+ }
+
+ .fotogro1:hover {
+     opacity: 1;
+ }
+
+ .fotogro2 {
+     grid-area: b;
+     margin-top: 1100px;
+     margin-bottom: 150px;
+     border-radius: 5%;
+     box-shadow: 0 14px 28px #3B3B3B;
+     opacity: 0.6;
+     transition: 0.3s;
+ }
+
+ .fotogro2:hover {
+     opacity: 1;
+ }
+ 
+ /*kontakt web siden*/
+
+.kontaktmainmobil {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "a b c";
+}
+
+.headlinemobil {
+    grid-area: b;
+}
+
+.underheadlinemobil {
+    grid-area: b;
+}
+
+.picmobil {
+    grid-area: c;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+.picmobil2 {
+    grid-area: a;
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 0px;
+}
+
+.kontakttekstmobil {
+    grid-area: b;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 125px;
+    padding: 0 15px 0 15px;
+    border-style: none;
+    
+}
+
+.kontaktdetaljer {
+    grid-area: b;
+    margin-top: 250px;
+    margin-left: 80px;
+    
+}
+
+.mobilmobil {
+    grid-area: b;
+    margin-top: 320px;
+    margin-left: 330px;
+}
+
+.ebrevmobil {
+    grid-area: b;
+    margin-top: 320px;
+}
+
+
+
+.
+
+/*footer webside*/
+
+ .footermobil  {
+     display:none;
+ }
+ .footer {
+    display: grid;
+    grid-template-columns: repeat(3), 1fr; 
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "a b c"
+    "e d f"
+    "g h i";
+
+  }
+
+  .kontaktfooter {
+      grid-area: a;
+      color:#95B48F;
+      margin-top: 20px;
+      margin-left: 20px;
+  }
+
+  .email {
+      grid-area: e;
+      color:white;
+      margin-left: 20px;
+  }
+
+  .phone {
+    grid-area: g;
+    color:white;
+    margin-left: 20px; 
+  }
+
+  .copyright {
+      grid-area: h;
+      margin-left: 0px; 
+      font-size: 15px; 
+      color: white;
+  }
+
+  
+
+ footer {
+        font-size: 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+        background-color: rgba(255, 255, 255, 0.7);
+ }
+}
+ 

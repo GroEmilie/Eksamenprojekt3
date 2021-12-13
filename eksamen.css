@@ -1,0 +1,72 @@
+body {
+  background-image:url(baggrund.png);
+  background-repeat: no repeat;
+  background-position:top right;
+  background-attachment:scroll;
+  background-size: cover;
+  background-color:#707070;
+}
+
+
+
+.menubar {
+  background-color: rgba(112, 112, 112, 0.7);
+  width: 100%;
+  height: 30px;
+  color: #ffffff;
+  font-size: 25px;
+  font-style: normal;
+  font-family: serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.GJL {
+  font-size: 25px;
+  text-decoration: none;
+  transition: ease-in 0.3s;
+}
+
+.GJL:hove {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.hexagon {
+  width: 20px
+  height: 20px;
+}
+
+.ommig {
+  text-decoration: none;
+}
+
+.ommig:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.6fr 1.9fr 0.5fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+}
+
+footer {
+  display:grid;
+  color: white;
+  font-size: 20px;
+  font-family: serif;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
