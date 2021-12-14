@@ -1,3 +1,5 @@
+ 
+ /*generelt*/
  html {
      font-family: 'raleway', sans-serif;
  }
@@ -133,26 +135,27 @@ ul a {
  .ppmobil {
    grid-area: a;
      font-size: 15px;
-     margin-left: 0px;
-     margin-top: 20px;
+     margin-left: 25px;
+     margin-top: 130px;
      color: #95B48F;
  }
 
  .navnmobil {
      grid-area: a;
-     margin-top: 30px;
-     margin-left: 0px;
+     margin-top: 150px;
+     margin-left: 50px;
      font-size: 10px;
      color: white;
  }
 
  .gro {
      grid-area:a;
-     margin-top: 150px;
+     width: 212px;
+    height: 645px;
+    margin-top: 100px;
+    margin-left: 150px;
      opacity: 0.6;
      transition: 0.3s;
-     margin-left: 0px;
-     margin-right: 0px;
  }
 
  .gro:hover {
@@ -174,7 +177,7 @@ ul a {
     grid-area: a;
     margin-top: 30px;
     font-size: 30px;
-    margin-left: 165px;
+    margin-left: 100px;
     color: #95B48F;
 }
 
@@ -182,17 +185,18 @@ ul a {
     grid-area: a;
     margin-top: 10px;
     font-size: 20px;
-    margin-left: 100px;
+    margin-left: 110px;
     color:white;
 }
 
 .projekt1 {
     grid-area: a;
     margin-top:20px;
-    margin-left: 50px;
+    margin-left: 40px;
     opacity: 0.6;
     transition: 0.3s;
     border-radius: 5%;
+    width: 300px;
 }
 
 .projekt1:hover {
@@ -202,7 +206,7 @@ ul a {
 .projekt1tekst {
     grid-area: a;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 30px;
     color: white;
     padding: 0 15px 0 15px;
 }
@@ -210,7 +214,8 @@ ul a {
 .projekt2 {
     grid-area: a;
     margin-top: 80px;
-    margin-left: 50px;
+    margin-left: 40px;
+    width: 300px;
     opacity: 0.6;
     transition: 0.3s;
     border-radius: 5%;
@@ -223,15 +228,16 @@ ul a {
 .projekt2tekst {
     grid-area: a;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 30px;
     color: white;
     padding: 0 15px 0 15px;
 }
 
 .projekt3 {
     grid-area: a;
+    width: 300px;
     margin-top: 80px;
-    margin-left: 50px;
+    margin-left: 40px;
     opacity: 0.6;
     transition: 0.3s;
     border-radius: 5%;
@@ -244,15 +250,16 @@ ul a {
 .projekt3tekst {
     grid-area: a;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 30px;
     padding: 0 15px 0 15px;
     color: white;
 }
 
 .projekt4 {
     grid-area: a;
+    width: 300px;
     margin-top: 80px;
-    margin-left: 50px;
+    margin-left: 40px;
     opacity: 0.6;
     transition: 0.3s;
     border-radius: 5%;
@@ -265,15 +272,16 @@ ul a {
 .projekt4tekst {
     grid-area: a;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 30px;
     padding: 0 15px 0 15px;
     color: white;
 }
 
 .projekt5 {
     grid-area: a;
+    width: 300px;
     margin-top: 80px;
-    margin-left: 50px;
+    margin-left: 40px;
     opacity: 0.6;
     transition: 0.3s;
     border-radius: 5%;
@@ -286,15 +294,16 @@ ul a {
 .projekt5tekst {
     grid-area: a;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 30px;
     padding: 0 15px 0 15px;
     color: white;
 }
 
 .projekt6 {
     grid-area: a;
+    width: 300px;
     margin-top: 80px;
-    margin-left: 50px;
+    margin-left: 40px;
     opacity: 0.6;
     transition: 0.3s;
     border-radius: 5%;
@@ -309,7 +318,7 @@ ul a {
 .projekt6tekst {
     grid-area: a;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 30px;
     padding: 0 15px 0 15px;
     color: white;
 
@@ -319,26 +328,27 @@ ul a {
     grid-area: a;
     color:white;
     margin-top: 30px;
-    margin-left: 120px;
+    margin-left: 90px;
     font-size:30px;
 }
 
 .citat1 {
     grid-area: a;
     color:#95B48F;
-    margin-left: 160px;
+    margin-left: 130px;
     font-size: 30px;
 }
 
 .citat2 {
     grid-area: a;
     color:#95B48F;
-    margin-left: 160px;
+    margin-left: 130px;
     font-size:30px;
 }
 
 .andreprojekter1foto {
     grid-area: a;
+    width: 300px;
     margin-top: 40px;
     margin-left: 40px;
     opacity: 0.6;
@@ -353,7 +363,7 @@ ul a {
 .andreprojekter1 {
     grid-area: a;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 30px;
     padding: 0 15px 0 15px;
     color: white;
    
@@ -363,6 +373,7 @@ ul a {
 
 .andreprojekter2foto {
     grid-area: a;
+    width: 300px;
     margin-top: 80px;
     margin-left: 40px;
     opacity: 0.6;
@@ -377,7 +388,7 @@ ul a {
 .andreprojekter2 {
     grid-area: a;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 30px;
     padding: 0 15px 0 15px;
     color: white;
     
@@ -385,6 +396,7 @@ ul a {
 
 .andreprojekter3foto {
     grid-area: a;
+    width: 300px;
     margin-top: 80px;
     margin-left: 40px;
     opacity: 0.6;
@@ -422,7 +434,7 @@ ul a {
      margin-top: 20px;
      font-size: 40px;
      color: #95B48F;
-     margin-left: 175px;
+     margin-left: 110px;
  }
  .ommigtekst {
      grid-area: a;
@@ -435,15 +447,16 @@ ul a {
 
  .citat3 {
      grid-area: a;
-     font-size: 30px;
+     font-size: 25px;
+     padding-right: 50px;
      color: #95B48F;
      margin-left:50px;
-     margin-top:1075px;
+     margin-top:1315px;
  }
 
  .ommigtekst1 {
      grid-area: a;
-     margin-top: 1200px;
+     margin-top: 1420px;
      margin-left: 35px;
      padding: 0 35px 0 15px;
      font-size: 20px;
@@ -452,7 +465,7 @@ ul a {
 
  .ommigtekst2 {
      grid-area: a;
-     margin-top: 2000px;
+     margin-top: 2320px;
      margin-left: 35px;
      padding: 0 35px 0 15px;
      font-size: 20px;
@@ -461,7 +474,7 @@ ul a {
 
  .ommigtekst3 {
      grid-area: a;
-     margin-top:2400px;
+     margin-top:2800px;
      margin-left: 35px;
      padding: 0 35px 0 15px;
      font-size: 20px;
@@ -471,15 +484,15 @@ ul a {
  .fotogro {
      grid-area: a;
      margin-top: 100px;
-     margin-left:80px;
+     margin-left:10px;
      border-radius: 5%;
      opacity: 0.8;
  }
 
  .fotogro1 {
      grid-area: a;
-     margin-top: 1530px;
-     margin-left:80px;
+     margin-top: 1860px;
+     margin-left:10px;
      border-radius: 5%;
      opacity: 0.8;
       
@@ -487,17 +500,16 @@ ul a {
 
  .fotogro2 {
      grid-area: a;
-     margin-top:2640px;
-     margin-left:35px;
-     margin-left:80px;
+     margin-top:3150px;
+     margin-left:10px;
      border-radius: 5%;
      opacity: 0.8;
      margin-bottom:120px;
  }
  .instagramlogo {
      grid-area: a;
-     margin-top:2270px;
-     margin-left:200px;
+     margin-top: 2670px;
+     margin-left:150px;
  }
  
  /*kontakt mobil siden*/
@@ -523,7 +535,7 @@ ul a {
     grid-area: a;
     margin-top: 20px;
     color: #95B48F;
-    margin-left:155px;
+    margin-left:95px;
     font-size: 40px;
 }
 
@@ -531,13 +543,13 @@ ul a {
     grid-area: a;
     margin-top:70px;
     color:white;
-    font-size:25px;
-    margin-left: 55px;
+    font-size: 20px;
+    margin-left:32px;
 }
 
 .picmobil {
     grid-area: f;
-    margin-left: 75px;
+    margin-left: 10px;
     margin-bottom: 150px;
     border-radius: 5%;
     box-shadow: 0 14px 28px #3B3B3B;
@@ -547,7 +559,7 @@ ul a {
 
 .picmobil2 {
     grid-area: d;
-    margin-left: 75px;
+    margin-left: 10px;
     border-radius: 5%;
     box-shadow: 0 14px 28px #3B3B3B;
     opacity: 0.6;
@@ -577,8 +589,8 @@ ul a {
     grid-area: b;
     margin-top: 20px;
     color: #95B48F;
-    margin-left:55px;
-    font-size: 40px;
+    margin-left:25px;
+    font-size: 35px;
 
 }
 
@@ -586,7 +598,7 @@ ul a {
     grid-area: c;
     margin-top: 20px;
     color: white;
-    margin-left: 40px;
+    margin-left: 25px;
     font-size: 20px;
 }
 
@@ -595,7 +607,7 @@ ul a {
     margin-top: 20px;
     margin-bottom: 30px;
     color: white;
-    margin-left: 280px;
+    margin-left: 260px;
     font-size: 20px;
 
 }
@@ -607,54 +619,55 @@ ul a {
  .footermobil {
      display: grid;
      grid-template-columns: repeat(3), fr 1;
-     grid-template-rows: auto auto;
+     grid-template-rows: auto;
      grid-template-areas: 
-     "a b c"
-     "e f g";
+     "a"
+     "b";
  }
 
 
  .emailmobil {
      grid-area: a;
-     font-size: 20px;
+     font-size: 10px;
      margin-top: 10px;
-     margin-left: 20px;
+     margin-left: 30px;
      color: white;
  }
 
  .phonemobil {
-     grid-area: c;
-     font-size: 20px;
-     margin-top: 10px;
-     margin-left: 20px;
+     grid-area: a;
+     font-size: 10px;
+     margin-top: 30px;
+     margin-left: 30px;
      color:white;
      
 
  }
 
  .copyrightmobil {
-     grid-area: f;
+     grid-area: b;
      width: 100%;
+     margin-top: 20px;
+     margin-left: 15px;
+     padding-bottom: 15px;
      font-size: 10px;
      color: white;
      
  }
 
  footer {
-    font-size: 20px;
+    font-size: 15px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: rgba(112, 112, 112, 0.8);
 }
 
- @media screen and (min-width: 375px) {
+ @media screen and (min-width: 400px) {
 
 
- }
-
- /*navigation mobil side*/
+ /*navigation 700px side*/
  ul {
     display: flex;
     width: 100%;
@@ -730,7 +743,7 @@ ul a {
      background-repeat: no-repeat;
      background-size: auto;
  }
- /* mobile version */
+ 
 
  .stormenu {
      display: none;
@@ -755,12 +768,11 @@ ul a {
  .item {
      width: 100%;
      text-align: center;
-     /* display:none; */
      font-size: 20px;
      padding: 10px;
      color: white;
  }
-/*Indhold på alle mobil sider*/
+/*Indhold på alle 700px sider*/
 /*Forside*/
 
  .indhold {
@@ -793,6 +805,8 @@ ul a {
 
  .gro {
      grid-area:a;
+     width:300px;
+     height:530px;
      margin-top: 20px;
      opacity: 0.6;
      transition: 0.3s;
@@ -804,7 +818,7 @@ ul a {
  }
 
  
-/*projekter mobil siden*/
+/*projekter 700px siden*/
 
 .main {
     display: grid;
@@ -832,6 +846,8 @@ ul a {
 
 .projekt1 {
     grid-area: a;
+    width: 400px;
+    height: 250px;
     margin-top:20px;
     margin-left: 50px;
     opacity: 0.6;
@@ -853,6 +869,8 @@ ul a {
 
 .projekt2 {
     grid-area: a;
+    width: 400px;
+    height: 250px;
     margin-top: 80px;
     margin-left: 50px;
     opacity: 0.6;
@@ -874,6 +892,8 @@ ul a {
 
 .projekt3 {
     grid-area: a;
+    width: 400px;
+    height: 250px;
     margin-top: 80px;
     margin-left: 50px;
     opacity: 0.6;
@@ -895,6 +915,8 @@ ul a {
 
 .projekt4 {
     grid-area: a;
+    width: 400px;
+    height: 250px;
     margin-top: 80px;
     margin-left: 50px;
     opacity: 0.6;
@@ -916,6 +938,8 @@ ul a {
 
 .projekt5 {
     grid-area: a;
+    width: 400px;
+    height: 250px;
     margin-top: 80px;
     margin-left: 50px;
     opacity: 0.6;
@@ -937,6 +961,8 @@ ul a {
 
 .projekt6 {
     grid-area: a;
+    width: 400px;
+    height: 250px;
     margin-top: 80px;
     margin-left: 50px;
     opacity: 0.6;
@@ -983,6 +1009,8 @@ ul a {
 
 .andreprojekter1foto {
     grid-area: a;
+    width: 400px;
+    height: 250px;
     margin-top: 40px;
     margin-left: 40px;
     opacity: 0.6;
@@ -1007,6 +1035,8 @@ ul a {
 
 .andreprojekter2foto {
     grid-area: a;
+    width: 400px;
+    height: 250px;
     margin-top: 80px;
     margin-left: 40px;
     opacity: 0.6;
@@ -1029,6 +1059,8 @@ ul a {
 
 .andreprojekter3foto {
     grid-area: a;
+    width: 400px;
+    height: 250px;
     margin-top: 80px;
     margin-left: 40px;
     opacity: 0.6;
@@ -1293,7 +1325,7 @@ ul a {
     background-color: rgba(112, 112, 112, 0.8);
 }
 
-
+ }
 
 
 
