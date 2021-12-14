@@ -8,8 +8,8 @@
      margin: 0;
  }
 
- /*navigation mobil side*/
- ul {
+  /*navigation mobil side*/
+  ul {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -22,7 +22,7 @@
  }
  
  li {
-   width: auto;
+   width: 100%;
  }
  
  li a, .dropbtn {
@@ -36,7 +36,7 @@
  
  li.dropdown {
    display: inline-block;
-   min-width: 100%;
+   min-width: 375px;
  }
  
  .dropdown-content {
@@ -52,6 +52,7 @@
  .dropdown-content a {
    color: white;
    padding: 12px 16px;
+   width: 100%;
    text-decoration: none;
    display: block;
    text-align: center;
@@ -131,30 +132,33 @@ ul a {
     
  .ppmobil {
    grid-area: a;
-     font-size: 20px;
-     margin-left: 50px;
-     margin-top: 100px;
+     font-size: 15px;
+     margin-left: 0px;
+     margin-top: 20px;
      color: #95B48F;
  }
 
  .navnmobil {
      grid-area: a;
-     margin-top: 130px;
-     margin-left: 70px;
-     font-size: 15px;
+     margin-top: 30px;
+     margin-left: 0px;
+     font-size: 10px;
      color: white;
  }
 
  .gro {
      grid-area:a;
+     margin-top: 150px;
      opacity: 0.6;
      transition: 0.3s;
-     margin-left: 200px;
+     margin-left: 0px;
+     margin-right: 0px;
  }
 
  .gro:hover {
-     opacity: 1;
+     opacity: 0.8;
  }
+
  
 /*projekter mobil siden*/
 
@@ -615,7 +619,7 @@ ul a {
      font-size: 20px;
      margin-top: 10px;
      margin-left: 20px;
-     color: #707070;
+     color: white;
  }
 
  .phonemobil {
@@ -623,7 +627,8 @@ ul a {
      font-size: 20px;
      margin-top: 10px;
      margin-left: 20px;
-     color: #707070;
+     color:white;
+     
 
  }
 
@@ -631,7 +636,8 @@ ul a {
      grid-area: f;
      width: 100%;
      font-size: 10px;
-     color: #707070;
+     color: white;
+     
  }
 
  footer {
@@ -640,7 +646,651 @@ ul a {
     bottom: 0;
     width: 100%;
     height: 100px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(112, 112, 112, 0.8);
+}
+
+ @media screen and (min-width: 375px) {
+
+
+ }
+
+ /*navigation mobil side*/
+ ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #707070;
+ }
+ 
+ li {
+   width: auto;
+ }
+ 
+ li a, .dropbtn {
+   display: inherit;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ 
+ li.dropdown {
+   display: inline-block;
+   min-width: 100%;
+ }
+ 
+ .dropdown-content {
+   display: none;
+   font-size: 20px;
+   position: absolute;
+   background-color: rgba(112, 112, 112, 0.8);
+   min-width: 100%;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ 
+ .dropdown-content a {
+   color: white;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   text-align: center;
+ }
+ 
+ .dropdown-content a:hover {
+     background-color:#707070;
+    }
+ 
+ .dropdown:hover .dropdown-content {
+   display: block;
+ }
+ a {
+     color: inherit;
+ }
+
+ul a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ ul a:hover {
+     color: #95B48F;
+ }
+
+
+
+ body {
+     background-color: #707070; 
+     background-repeat: no-repeat;
+     background-size: auto;
+ }
+ /* mobile version */
+
+ .stormenu {
+     display: none;
+ }
+
+ .menu {
+     display: flex;
+     width: 100%;
+     font-size: 30px;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .menu a {
+     display: block;
+     padding: 15px 5px;
+
+ }
+
+
+ .item {
+     width: 100%;
+     text-align: center;
+     /* display:none; */
+     font-size: 20px;
+     padding: 10px;
+     color: white;
+ }
+/*Indhold på alle mobil sider*/
+/*Forside*/
+
+ .indhold {
+     display: none;
+ }
+
+ .mobilbillede {
+     display: grid;
+     grid-template-columns: auto;
+     grid-template-rows: auto;
+     grid-template-areas: 
+     "a"; 
+ }
+    
+ .ppmobil {
+   grid-area: a;
+     font-size: 20px;
+     margin-left: 50px;
+     margin-top: 100px;
+     color: #95B48F;
+ }
+
+ .navnmobil {
+     grid-area: a;
+     margin-top: 130px;
+     margin-left: 70px;
+     font-size: 15px;
+     color: white;
+ }
+
+ .gro {
+     grid-area:a;
+     margin-top: 20px;
+     opacity: 0.6;
+     transition: 0.3s;
+     margin-left: 200px;
+ }
+
+ .gro:hover {
+     opacity: 0.8;
+ }
+
+ 
+/*projekter mobil siden*/
+
+.main {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "a";
+}
+
+.overskrift {
+    grid-area: a;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 165px;
+    color: #95B48F;
+}
+
+.underoverskrift {
+    grid-area: a;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 100px;
+    color:white;
+}
+
+.projekt1 {
+    grid-area: a;
+    margin-top:20px;
+    margin-left: 50px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+
+.projekt1:hover {
+    opacity: 1;
+}
+
+.projekt1tekst {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+    padding: 0 15px 0 15px;
+}
+
+.projekt2 {
+    grid-area: a;
+    margin-top: 80px;
+    margin-left: 50px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+
+.projekt2:hover {
+    opacity:1;
+}
+
+.projekt2tekst {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+    padding: 0 15px 0 15px;
+}
+
+.projekt3 {
+    grid-area: a;
+    margin-top: 80px;
+    margin-left: 50px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+
+.projekt3:hover{
+    opacity: 1;
+}
+
+.projekt3tekst {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 0 15px 0 15px;
+    color: white;
+}
+
+.projekt4 {
+    grid-area: a;
+    margin-top: 80px;
+    margin-left: 50px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+
+.projekt4:hover {
+    opacity: 1;
+}
+
+.projekt4tekst {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 0 15px 0 15px;
+    color: white;
+}
+
+.projekt5 {
+    grid-area: a;
+    margin-top: 80px;
+    margin-left: 50px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+
+.projekt5:hover {
+    opacity: 1;
+}
+
+.projekt5tekst {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 0 15px 0 15px;
+    color: white;
+}
+
+.projekt6 {
+    grid-area: a;
+    margin-top: 80px;
+    margin-left: 50px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+
+}
+
+.projekt6:hover {
+    opacity: 1;
+
+}
+
+.projekt6tekst {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 0 15px 0 15px;
+    color: white;
+
+}
+
+.citat {
+    grid-area: a;
+    color:white;
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size:30px;
+}
+
+.citat1 {
+    grid-area: a;
+    color:#95B48F;
+    margin-left: 160px;
+    font-size: 30px;
+}
+
+.citat2 {
+    grid-area: a;
+    color:#95B48F;
+    margin-left: 160px;
+    font-size:30px;
+}
+
+.andreprojekter1foto {
+    grid-area: a;
+    margin-top: 40px;
+    margin-left: 40px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+
+.andreprojekter1foto:hover {
+    opacity: 1;
+}
+
+.andreprojekter1 {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 0 15px 0 15px;
+    color: white;
+   
+   
+
+}
+
+.andreprojekter2foto {
+    grid-area: a;
+    margin-top: 80px;
+    margin-left: 40px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+
+.andreprojekter2foto:hover {
+    opacity: 1;
+}
+
+.andreprojekter2 {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 0 15px 0 15px;
+    color: white;
+    
+}
+
+.andreprojekter3foto {
+    grid-area: a;
+    margin-top: 80px;
+    margin-left: 40px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+
+.andreprojekter3foto:hover {
+    opacity: 1;
+}
+
+.andreprojekter3 {
+    grid-area: a;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 0 15px 0 15px;
+    color: white;
+    margin-bottom: 150px;
+    
+
+}
+
+ /*om mig mobil siden*/
+
+ .containermobil {
+     display: grid;
+     grid-template-columns: auto;
+     grid-template-rows: auto;
+     grid-template-areas: 
+     "a";  
+ }
+ 
+ .ommigoverskrift {
+     grid-area: a;
+     margin-top: 20px;
+     font-size: 40px;
+     color: #95B48F;
+     margin-left: 175px;
+ }
+ .ommigtekst {
+     grid-area: a;
+     margin-top:580px;
+     margin-left: 35px;
+     padding: 0 35px 0 15px;
+     font-size: 20px;
+     color: white;
+ }
+
+ .citat3 {
+     grid-area: a;
+     font-size: 30px;
+     color: #95B48F;
+     margin-left:50px;
+     margin-top:1075px;
+ }
+
+ .ommigtekst1 {
+     grid-area: a;
+     margin-top: 1200px;
+     margin-left: 35px;
+     padding: 0 35px 0 15px;
+     font-size: 20px;
+     color: white;
+ }
+
+ .ommigtekst2 {
+     grid-area: a;
+     margin-top: 2000px;
+     margin-left: 35px;
+     padding: 0 35px 0 15px;
+     font-size: 20px;
+     color: white;
+ }
+
+ .ommigtekst3 {
+     grid-area: a;
+     margin-top:2400px;
+     margin-left: 35px;
+     padding: 0 35px 0 15px;
+     font-size: 20px;
+     color: white;
+ }
+
+ .fotogro {
+     grid-area: a;
+     margin-top: 100px;
+     margin-left:80px;
+     border-radius: 5%;
+     opacity: 0.8;
+ }
+
+ .fotogro1 {
+     grid-area: a;
+     margin-top: 1530px;
+     margin-left:80px;
+     border-radius: 5%;
+     opacity: 0.8;
+      
+ }
+
+ .fotogro2 {
+     grid-area: a;
+     margin-top:2640px;
+     margin-left:35px;
+     margin-left:80px;
+     border-radius: 5%;
+     opacity: 0.8;
+     margin-bottom:120px;
+ }
+ .instagramlogo {
+     grid-area: a;
+     margin-top:2270px;
+     margin-left:200px;
+ }
+ 
+ /*kontakt mobil siden*/
+
+ .kontaktmain {
+     display:none;
+ }
+
+.kontaktmainmobil {
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f";
+}
+
+.headlinemobil {
+    grid-area: a;
+    margin-top: 20px;
+    color: #95B48F;
+    margin-left:155px;
+    font-size: 40px;
+}
+
+.underheadlinemobil {
+    grid-area: a;
+    margin-top:70px;
+    color:white;
+    font-size:25px;
+    margin-left: 55px;
+}
+
+.picmobil {
+    grid-area: f;
+    margin-left: 75px;
+    margin-bottom: 150px;
+    border-radius: 5%;
+    box-shadow: 0 14px 28px #3B3B3B;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.picmobil2 {
+    grid-area: d;
+    margin-left: 75px;
+    border-radius: 5%;
+    box-shadow: 0 14px 28px #3B3B3B;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.picmobil:hover {
+    opacity: 1;
+}
+
+.picmobil2:hover {
+    opacity: 1;
+}
+
+.kontakttekstmobil {
+    grid-area: e;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    text-align:center;
+    color:white;
+    border-style:double;
+}
+
+.kontaktdetaljer {
+    grid-area: b;
+    margin-top: 20px;
+    color: #95B48F;
+    margin-left:55px;
+    font-size: 40px;
+
+}
+
+.ebrevmobil {
+    grid-area: c;
+    margin-top: 20px;
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.mobilmobil {
+    grid-area: c;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+    margin-left: 280px;
+    font-size: 20px;
+
+}
+
+ .footer{
+     display:none;
+ }
+
+ .footermobil {
+     display: grid;
+     grid-template-columns: repeat(3), fr 1;
+     grid-template-rows: auto auto;
+     grid-template-areas: 
+     "a b c"
+     "e f g";
+ }
+
+
+ .emailmobil {
+     grid-area: a;
+     font-size: 20px;
+     margin-top: 10px;
+     margin-left: 20px;
+     color: white;
+ }
+
+ .phonemobil {
+     grid-area: c;
+     font-size: 20px;
+     margin-top: 10px;
+     margin-left: 20px;
+     color:white;
+     
+
+ }
+
+ .copyrightmobil {
+     grid-area: f;
+     width: 100%;
+     font-size: 10px;
+     color: white;
+     
+ }
+
+ footer {
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(112, 112, 112, 0.8);
 }
 
 
@@ -670,21 +1320,39 @@ ul a {
  }
 
  .stormenu {
-     display: flex;
-     margin-top: 20px;
-     color: white;
-     text-shadow: #3B3B3B;
+     display: grid;
+     grid-template-columns: auto;
+     grid-template-rows: auto auto auto auto auto;
+     grid-template-areas: 
+     "a b c d e";
+ }
+
+ .forside {
+     grid-area: a;
      font-size: 30px;
-     flex-direction: row;
-     flex: 1 1 1 1 auto;
-     min-width: 95%;
-     align-items: flex-start;
+     margin-top: 20px;
+ }
+
+ .projekter {
+     grid-area: b;
+     font-size: 30px;
+     margin-top: 20px;
+ }
+
+ .ommig {
+     grid-area: c;
+     font-size: 30px;
+     margin-top: 20px;
+ }
+
+ .kontakt {
+     grid-area: d;
+     font-size: 30px;
+     margin-top: 20px;
  }
  
  .sprite {
-    display: flex;
-    flex-direction: row;
-    align-self: flex-end;
+    grid-area: a;
     width:100px;
     height:100px;
     background: url(logo2ani_Tegnebræt\ 1.png) 0 0 no-repeat;
@@ -716,8 +1384,7 @@ ul a {
 
 
  .indhold { 
-    /* background-image: url(gyngen.png); width: 1280px; height: 800px; */
-    height:100%;
+      height:100%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto auto auto;
@@ -728,24 +1395,26 @@ ul a {
  }
 
  .sprite {
-    grid-area: f;
-    margin-left: 425px;
-    margin-bottom: 50px;
-   width:100px;
-   height:100px;
-   background: url(logo2ani_Tegnebræt\ 1.png) 0 0 no-repeat;
-   animation: play 3s steps(7) infinite;
-}
+    grid-area: a;
+    margin-left:235px;
+    margin-top:230px;
+    width:100px;
+    height:100px;
+    background: url(logo2ani_Tegnebræt\ 1.png) 0 0 no-repeat;
+    animation: play 3s steps(7) infinite;
+ }
 
-@keyframes play {
-   0% {background-position:0px;}
-   100% {background-position:-700px;}
+ @keyframes play {
+    0% {background-position:0px;}
+    100% {background-position:-700px;}
 }
 
  .gro {
      opacity: 0.2;
      transition: 0.3s;
-     grid-area: l;
+     grid-area: f;
+     margin-top:80px;
+     
  }
 
  .gro:hover {
@@ -756,16 +1425,16 @@ ul a {
      grid-area: f;
      height: 30px;
      width: 30px;
-     margin-top: 120px;
+     margin-top: 100px;
      margin-left: 150px;
      background-color: #bbb;
      border-radius: 50%;
  }
 
  .dotto {
-    grid-area: l;
+    grid-area: f;
     margin-left: 220px;
-    margin-top: 20px;
+    margin-top: 140px;
     height: 25px;
     width: 25px;
     background-color: #bbb;
@@ -777,43 +1446,22 @@ ul a {
      grid-area: f;
      border-radius: 0%;
      opacity:0.6;
-     transition: 0.3s;   
+     transition: 0.3s; 
+     box-shadow: 0 14px 28px #3B3B3B;  
  }
 
  .kode:hover {
      opacity:1;
  }
 
- .forsidefoto {
-     grid-area: h;
-     opacity: 0.2;
-     transition: 0.3s;
-     margin-right: 40px;
- }
-
- .forsidefoto:hover {
-     opacity: 1;
- }
-
- .svaner {
-     grid-area: g;
-     margin-left:20px;
-     opacity: 0.2;
-     transition: 0.3s;
-     border-radius: 5%;
- }
-
- .svaner:hover {
-     opacity: 1;
- }
+ 
  .pp {
      grid-area: a;
      margin-left: 120px;
-     margin-bottom: 80px;
-     display: flex;
-     flex-direction: row;
+     margin-bottom: 0px;
+     margin-top: 120px;
      color: white;
-     align-items: center;
+     
      
  }
  
@@ -821,12 +1469,12 @@ ul a {
      grid-area: a;
      color: white;
      margin-left:155px;
-     margin-top: 50px;
+     margin-top: 160px;
  }
 
  .button {
      grid-area: a;
-     margin-top: 100px;
+     margin-top: 200px;
      margin-left: 230px;
      width: 120px;
      height: 30px;
@@ -1151,7 +1799,7 @@ ul a {
 
  .citat3 {
      grid-area: a;
-     margin-top: 400px;
+     margin-top: 450px;
      margin-left: 100px;
      font-size: 30px;
      color:#95B48F;
@@ -1178,7 +1826,7 @@ ul a {
  .instagramlogo {
     grid-area: a;
     margin-left: 320px;
-    margin-top: 950px;
+    margin-top: 970px;
 }
 
  .ommigtekst3 {
@@ -1346,7 +1994,7 @@ ul a {
         bottom: 0;
         width: 100%;
         height: 100px;
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(112, 112, 112, 0.8)
  }
 }
  
